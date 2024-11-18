@@ -77,3 +77,29 @@ printf("%3.0f \t %6.1f\n", fahr, celsius);
 In the "%3.0f" and "%6.1" numbers before the dot means the how long digit can have ours number and the number after the dot means that how many decimal digit output can have.
 
 > NOTICE: The number before the dot that determines how many digit we can have, Its include minus sign and the dot itself's.
+
+# 1.3 The for statement
+
+You can define a for statement like example blow:
+
+```c
+ for (expression 1; expression 2; expression 3) {
+  // code block to be executed
+}
+```
+
+# 1.4 Symbolic Constants
+
+When you have a contant variable that will never changes you can use **`#define name value`** its so easy to declare and you just do this:
+
+```c
+
+#define LOWER 0
+#define UPPER 300
+#define STEP 20
+
+```
+
+Its not necessary to use Uppercase letter but its better that you write constant variable names with Uppercase letters.
+
+
