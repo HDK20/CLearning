@@ -90,7 +90,7 @@ You can define a for statement like example blow:
 
 # 1.4 Symbolic Constants
 
-When you have a contant variable that will never changes you can use **`#define name value`** its so easy to declare and you just do this:
+When you have a constant variable that will never changes you can use **`#define name value`** its so easy to declare and you just do this:
 
 ```c
 
@@ -101,5 +101,29 @@ When you have a contant variable that will never changes you can use **`#define 
 ```
 
 Its not necessary to use Uppercase letter but its better that you write constant variable names with Uppercase letters.
+
+# 1.5 Character Input and Output 
+
+The C Lang read text streams like a bunch of characters that are seperate from each other, Its means that When we read a text stream in C we dont read hole stream or saving the hole texts into a list,
+We read text stream character by character. To doing this we will use standard libs that are maden for this.
+
+The standard library provides several functions for reading or writing `one character` at time, of which `puchar` and `getchar` are simplest.
+
+Each time we called `getchar` reads the *next input character* from text stream and returns its value. 
+
+```c
+
+c = getchat();
+
+```
+
+The function `putchar` prints a character each times its called.
+
+```c
+
+putchar(c);
+
+```
+
 
 
