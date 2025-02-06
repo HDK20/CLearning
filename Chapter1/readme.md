@@ -164,4 +164,13 @@ int main(){
 }
 ```
 
+The output will be something like this:
+
+```
+digits = 9 3 0 0 0 0 0 0 0 1, white space = 123, other = 345
+```
+
+You can see code explanation in page 24 and 25 of The books. 
+
+> Tip: I recommend to figure out what this code does by yourself.
 
