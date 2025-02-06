@@ -26,7 +26,7 @@ The '-o helloWorld' argument means the output file name is 'helloWorld'
 
 When we add \c escape sequence to our string C gives Error:
 
-```
+```zsh
 exercise1-2.c: In function ‘main’:
 exercise1-2.c:5:26: warning: unknown escape sequence: '\c'
     5 |   printf("hello, world\c");
