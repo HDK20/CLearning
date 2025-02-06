@@ -1,5 +1,5 @@
-# The C Programming LAnguage [ANSI]
+# The C Programming Language [ANSI]
 
-This Repo is a mind map that realted to "The C Programming Language" Book.
+![The C Programming Language Book 2nd Edotion](/img/51EyaJeebHL._AC_UF1000,1000_QL80_.jpg)
 
 
